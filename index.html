@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ako Doma • Bistro & Coffee v Košeci – moderná prezentačná stránka s galériou a kontaktom." />
+  <title>Ako Doma • Bistro & Coffee Košeca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="topbar">
+      <div class="wrap topbar-inner">
+        <span>☕ Bistro & Coffee • Slnečná 1, Košeca</span>
+        <a href="https://www.instagram.com/akodoma.koseca/" target="_blank" rel="noopener">@akodoma.koseca</a>
+      </div>
+    </div>
+
+    <nav class="nav wrap" aria-label="Hlavná navigácia">
+      <a href="#top" class="logo" aria-label="Ako Doma domov">
+        <span class="logo-mark">AD</span>
+        <span>
+          <strong>Ako Doma</strong>
+          <small>Bistro & Coffee</small>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Otvoriť menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#o-nas">O nás</a>
+        <a href="#ponuka">Ponuka</a>
+        <a href="#galeria">Galéria</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Ako Doma • Košeca</p>
+        <h1>Káva, raňajky a dobroty v štýle ako doma.</h1>
+        <p class="lead">Útulné bistro v Košeci na pokojné ráno, rýchlu kávu, sladkú chvíľu aj príjemné posedenie s rodinou alebo priateľmi.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#ponuka">Pozrieť ponuku</a>
+          <a class="btn ghost" href="#galeria">Prezrieť galériu</a>
+        </div>
+        <div class="quick-info" aria-label="Rýchle informácie">
+          <span>☕ káva</span>
+          <span>🥐 raňajky</span>
+          <span>🍰 domáce dobroty</span>
+          <span>🌿 terasa</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Ukážkové fotografie podniku">
+        <button class="photo hero-photo" data-gallery-open="0" type="button" aria-label="Otvoriť fotografiu raňajok">
+          <span class="photo-label">raňajky & káva</span>
+        </button>
+        <div class="hero-mini-card opening-card">
+          <span>Dnes</span>
+          <strong>7:30 – 20:00</strong>
+          <small>ukážkové hodiny</small>
+        </div>
+        <button class="hero-mini-card taste-card" data-gallery-open="1" type="button" aria-label="Otvoriť fotografiu dezertu">
+          <span>Sladké</span>
+          <strong>domáce dobroty</strong>
+        </button>
+      </div>
+    </section>
+
+    <section class="intro" id="o-nas">
+      <div class="wrap intro-grid">
+        <div class="section-title reveal">
+          <p class="eyebrow">O podniku</p>
+          <h2>Jednoduché miesto, kde sa dá na chvíľu spomaliť.</h2>
+        </div>
+        <div class="intro-text reveal">
+          <p>Ako Doma môže na webe pôsobiť presne tak, ako má pôsobiť samotný podnik: teplo, príjemne, čisto a ľudsky.</p>
+          <p>Táto ukážka je navrhnutá ako moderná prezentačná stránka s jasným kontaktom, ponukou a galériou, aby návštevník za pár sekúnd pochopil atmosféru aj základné informácie.</p>
+          <div class="feature-list">
+            <span>✓ prehľadná ponuka</span>
+            <span>✓ fotky a atmosféra</span>
+            <span>✓ mobilná verzia</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap menu-section" id="ponuka">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Ponuka</p>
+        <h2>Čo u nás nájdete</h2>
+        <p>Ukážkové položky. Finálne texty a menu sa doplnia podľa aktuálnej ponuky podniku.</p>
+      </div>
+
+      <div class="menu-cards">
+        <article class="menu-card reveal">
+          <span class="icon">🥐</span>
+          <h3>Raňajky</h3>
+          <p>Niečo jednoduché na ráno, domáce pečivo, nátierky a sezónne kombinácie.</p>
+          <ul>
+            <li>toast / pečivo</li>
+            <li>sladké raňajky</li>
+            <li>niečo malé ku káve</li>
+          </ul>
+        </article>
+        <article class="menu-card featured reveal">
+          <span class="icon">☕</span>
+          <h3>Káva & nápoje</h3>
+          <p>Káva, čaj, limonády a sezónne nápoje pre pokojné posedenie počas dňa.</p>
+          <ul>
+            <li>espresso / cappuccino</li>
+            <li>čaje a limonády</li>
+            <li>sezónne nápoje</li>
+          </ul>
+        </article>
+        <article class="menu-card reveal">
+          <span class="icon">🍰</span>
+          <h3>Domáce dobroty</h3>
+          <p>Koláče, dezerty a sladké kúsky, ktoré na stránke najlepšie predajú reálne fotky.</p>
+          <ul>
+            <li>koláče</li>
+            <li>dezerty</li>
+            <li>denná ponuka</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="signature">
+      <div class="wrap signature-grid">
+        <button class="signature-photo reveal" data-gallery-open="2" type="button" aria-label="Otvoriť fotografiu interiéru">
+          <span>interiér / terasa</span>
+        </button>
+        <div class="signature-copy reveal">
+          <p class="eyebrow">Atmosféra</p>
+          <h2>Web nemá byť preplnený. Má ukázať pocit z miesta.</h2>
+          <p>Pre bistro je najdôležitejšie, aby stránka nepôsobila ako lacná šablóna. Preto je dizajn postavený na veľkých fotkách, čistých textoch, jemných animáciách a rýchlom kontakte.</p>
+          <div class="stats">
+            <div><strong>01</strong><span>čistý dizajn</span></div>
+            <div><strong>02</strong><span>galéria fotiek</span></div>
+            <div><strong>03</strong><span>kontakt a mapa</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap gallery" id="galeria">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Galéria</p>
+        <h2>Fotky z podniku</h2>
+        <p>Fotky sú v ukážke placeholdery. Dá sa na ne kliknúť a otvoria sa vo väčšom náhľade.</p>
+      </div>
+
+      <div class="gallery-grid" aria-label="Klikateľná galéria">
+        <button class="gallery-item g1 reveal" data-gallery-open="0" type="button">
+          <span>raňajky</span>
+        </button>
+        <button class="gallery-item g2 reveal" data-gallery-open="1" type="button">
+          <span>dezert</span>
+        </button>
+        <button class="gallery-item g3 reveal" data-gallery-open="2" type="button">
+          <span>interiér</span>
+        </button>
+        <button class="gallery-item g4 reveal" data-gallery-open="3" type="button">
+          <span>káva</span>
+        </button>
+        <button class="gallery-item g5 reveal" data-gallery-open="4" type="button">
+          <span>terasa</span>
+        </button>
+        <button class="gallery-item g6 reveal" data-gallery-open="5" type="button">
+          <span>detail</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <div class="wrap contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Kontakt</p>
+          <h2>Nájdete nás v Košeci.</h2>
+          <p>Slnečná 1, Košeca</p>
+          <div class="contact-actions">
+            <a class="btn primary" href="https://www.instagram.com/akodoma.koseca/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Slne%C4%8Dn%C3%A1%201%2C%20Ko%C5%A1eca" target="_blank" rel="noopener">Otvoriť mapu</a>
+          </div>
+        </div>
+
+        <div class="hours-card reveal">
+          <h3>Otváracie hodiny</h3>
+          <p class="muted">Ukážkové údaje, pred spustením sa jednoducho upravia.</p>
+          <ul>
+            <li><span>Pondelok</span><strong>7:30 – 20:00</strong></li>
+            <li><span>Utorok – Piatok</span><strong>7:30 – 20:00</strong></li>
+            <li><span>Víkend</span><strong>8:00 – 20:00</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> Ako Doma • Bistro & Coffee</p>
+      <a href="#top">Späť hore ↑</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-label="Galéria fotografií">
+    <button class="lightbox-close" type="button" aria-label="Zavrieť galériu">×</button>
+    <button class="lightbox-nav prev" type="button" aria-label="Predchádzajúca fotografia">‹</button>
+    <div class="lightbox-card">
+      <div class="lightbox-image" aria-hidden="true"></div>
+      <div class="lightbox-caption">
+        <strong></strong>
+        <span></span>
+      </div>
+    </div>
+    <button class="lightbox-nav next" type="button" aria-label="Ďalšia fotografia">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
